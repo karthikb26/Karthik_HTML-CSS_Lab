@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.548 )
+}
+video{
+    position: fixed;
+}
+input:focus {
+    outline: none;
+    background-color: steelblue;
+    opacity: 0.35;
+}
+div {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+input{
+    width: 280px;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+button{
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 18px;
+    border-radius: 4px;
+}
